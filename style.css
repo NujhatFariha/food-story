@@ -1,13 +1,13 @@
 body{
     margin: 0px auto;
     font-family: 'Open Sans', sans-serif;
-    color: rgba(0, 0, 0, 0.637);
+    
 
 }
 
 .top-section{
     
-    margin: 20px;
+    margin-left: 20px;
    
 }
 
@@ -15,8 +15,6 @@ body{
 
     display: flex;
     margin-bottom: 120px;
-
-
 }
 
 .half-width{
@@ -26,31 +24,31 @@ body{
 }
 .half-width img{
     width: 70%;
-    padding-top: 12%;
+    padding-top: 20%;
 }
 .half-width p{
 
-    width: 60%;
+    width: 75%;
     padding-bottom: 8%;
-
 }
 
 .half-width h1{
     font-size: 45px;
-    width: 75%;
-    margin-top: 25%;
+    width: 65%;
+    margin-top: 30%;
+    color: rgba(0, 0, 0, 0.637);
 }
-h2{
-    font-size: 35px;
-}
+
 .specific-color{
     color: rgb(218, 137, 70);
     font-size: 40px;
 }
-
-.link-button{
+.font-color{
+    color: rgba(0, 0, 0, 0.637);;
+}
+.order-food-button{
     text-decoration: none;
-    background-image: linear-gradient( rgb(158, 40, 19), rgb(236, 144, 57)  );
+    background-image: linear-gradient( rgba(158, 40, 19, 0.911), rgba(236, 143, 57, 0.89)  );
     padding: 12px 26px;
     font-weight: 600;
     color: white;
@@ -64,8 +62,25 @@ h2{
     background-repeat: no-repeat;  
     
 }
+#about-me{
+    
+}
+.contact-button{
+    text-decoration: none;
+    background-image: linear-gradient( rgba(77, 9, 55, 0.836), rgb(207, 84, 135)  );
+    padding: 12px 26px;
+    font-weight: 600;
+    color: white;
+    border-radius: 25px;
+    margin-top: 60px;
+  
+
+}
 .recipies{
     margin: 40px;
+}
+.recipies h1{
+    font-size: 40px;
 }
 
 .recipe-item{
