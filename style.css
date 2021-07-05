@@ -7,34 +7,41 @@ body{
 
 .top-section{
     
-    margin: 30px;
+    margin: 20px;
    
 }
 
 .flex-container{
 
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 
 
 }
 
-.top{
+.half-width{
    width: 50%;
-   padding: 5%;
- 
-
+   padding-left: 10%;
 
 }
-.top img{
-    width: 90%;
+.half-width img{
+    width: 70%;
+    padding-top: 12%;
+}
+.half-width p{
+
+    width: 60%;
+    padding-bottom: 8%;
+
 }
 
-h1{
+.half-width h1{
     font-size: 45px;
+    width: 75%;
+    margin-top: 25%;
 }
 h2{
-    font-size: 30px;
+    font-size: 35px;
 }
 .specific-color{
     color: rgb(218, 137, 70);
@@ -54,36 +61,31 @@ h2{
 
 .about-me-section{
     background-image: url(images/aboutme-bg.png);
-    background-repeat: no-repeat;
-    padding: 100px 50px 0px 80px;
+    background-repeat: no-repeat;  
     
-
 }
-.about-me{
-    width: 50%;
-   
-
-  
-}
-.about-me img{
-    width: 70%;
+.recipies{
+    margin: 40px;
 }
 
 .recipe-item{
-    width: 25%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 20px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 40px gray;
-    border-left: 10px ;
+    width: 30%;
+    margin-left: 3%;
+    margin-right: 1%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 40px;
+
+    box-shadow: 10px 10px 30px gray;
 }
 .My-recipies{
     text-align: center;
+    
 }
 .recipe-item img{
-    width: 90%;
-    padding-top: 10%;
+    width: 100%;
+    height: 250px;
+    border-radius: 35px;
 }
 
 
