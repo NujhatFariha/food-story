@@ -5,21 +5,44 @@ body{
 
 }
 
-.top-section{
-    
-    margin-left: 20px;
-   
+#menu{
+    overflow: hidden;
+    background-color: rgb(245, 239, 239);
+    height: 150px;
+    margin: 20px 15px 0px 0px;
 }
+
+#menu ul li {
+    display: inline-block;
+    margin-top: 40px;
+}
+#menu a{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.575);
+    text-decoration: none;
+    margin: 40px;
+    padding-left: 27px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.top-section{
+
+    margin-left: 20px;
+    margin-bottom: 120px;
+}
+   
 
 .flex-container{
 
     display: flex;
-    margin-bottom: 120px;
+    
 }
 
 .half-width{
    width: 50%;
    padding-left: 10%;
+   
 
 }
 .half-width img{
@@ -29,7 +52,8 @@ body{
 .half-width p{
 
     width: 75%;
-    padding-bottom: 8%;
+    padding-bottom: 40px;
+    
 }
 
 .half-width h1{
@@ -46,7 +70,7 @@ body{
 .font-color{
     color: rgba(0, 0, 0, 0.637);;
 }
-.order-food-button{
+#order-food-button{
     text-decoration: none;
     background-image: linear-gradient( rgba(158, 40, 19, 0.911), rgba(236, 143, 57, 0.89)  );
     padding: 12px 26px;
@@ -60,12 +84,11 @@ body{
 .about-me-section{
     background-image: url(images/aboutme-bg.png);
     background-repeat: no-repeat;  
+    margin-bottom: 120px;
     
 }
-#about-me{
-    
-}
-.contact-button{
+
+#contact-button{
     text-decoration: none;
     background-image: linear-gradient( rgba(77, 9, 55, 0.836), rgb(207, 84, 135)  );
     padding: 12px 26px;
@@ -90,7 +113,6 @@ body{
     margin-top: 20px;
     padding: 20px;
     border-radius: 40px;
-
     box-shadow: 10px 10px 30px gray;
 }
 .My-recipies{
@@ -102,14 +124,42 @@ body{
     height: 250px;
     border-radius: 35px;
 }
-.footer-area{
-    background-color: rgba(7, 7, 26, 0.973);
-    height: 250px;
-    margin-bottom: 0px;
+
+.get-recipes{
+    background-color: rgb(255, 247, 240);
 }
+.subscribe{
+  
+    width: 50%;
+    margin: 30px 0px 25px 80px;
+    font-size: 20px;
+    
+}
+#signup{
+    margin-top: 60px; 
+}
+#signup input{
+   
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#signup button{
+    margin-top: 15px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+
 footer{
+    background-color: rgba(7, 7, 26, 0.973);
+    margin-bottom: 0px;
     text-align: center;
     padding: 25px;
+    height: 250px;
 }
 footer h1{
     font-size: 40px;
@@ -118,6 +168,3 @@ footer h1{
 footer p{
     color: white;
 }
-
-
-
