@@ -3,14 +3,13 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 .top-section{
-
     margin-left: 20px;
     margin-bottom: 120px;
 }
 #menu{
     overflow: hidden;
     background-color: rgb(245, 239, 239);
-    height: 150px;
+    height: 140px;
     margin: 20px 15px 0px 0px;
     border-radius: 20px;
 }
@@ -22,8 +21,8 @@ body{
     text-align: center;
     color: rgba(0, 0, 0, 0.575);
     text-decoration: none;
-    margin: 40px;
-    padding-left: 45px;
+    margin: 20px;
+    padding: 30px;
     font-size: 20px;
     font-weight: 900;
 }
@@ -46,7 +45,7 @@ body{
 }
 .half-width p{
     width: 75%;
-    padding-bottom: 40px; 
+    padding-bottom: 25px; 
 }
 .specific-color{
     color: rgb(218, 137, 70);
